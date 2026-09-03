@@ -24,6 +24,9 @@ switch (diaSemana) {
   case 6:
     diaDaSemanaTexto = "Sábado";
     break;
+  default:
+    diaDaSemanaTexto = "Dia inválido";
+    break;
 }
 
 console.log(`Hoje é ${diaDaSemanaTexto}`);
